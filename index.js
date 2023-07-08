@@ -127,6 +127,8 @@ function measureVolume() {
 }
 
 function connectedMessage() {
+  audioButton.innerText = "Audio connected"
+
   const messageElement = document.createElement("p")
   messageElement.innerText = "Audio connected"
 
